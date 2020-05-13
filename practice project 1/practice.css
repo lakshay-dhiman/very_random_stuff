@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: auto;
+    background-color:rgba(236, 234, 234, 0.959);
+    border: 10px;
+    height: auto;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main{
+    max-width: 900px;;
+    margin: auto;
+    background:rgb(255, 255, 255);
+}
+
+#main_landing{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#title_text{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 1 40vw;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#landing_image{
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-repeat: no-repeat;  
+     background-position: center; 
+    /* background: red; */
+    background-size: cover;
+    /* width: 60vh; */
+    height: 100vh;
+    flex: 0 1 60vw;
+    margin: 0px;
+}
+
+@media(max-width:500px){
+#main_landing{
+    background:rgb(255, 255, 255);
+    display: block;
+}
+
+#title_text{
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 1 40vw;
+    height: 50vh;
+
+
+}
+
+#landing_image{
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-repeat: no-repeat;  
+     background-position: center; 
+    /* background: red; */
+    background-size: cover;
+    /* width: 60vh; */
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0px;
+}
+}
+
+
+.title{
+    word-wrap: normal;
+    text-transform: uppercase;
+    margin: 10px;
+    
+}
+
+.subtitle{
+    color:rgba(0, 0, 0, 0.6);
+    text-transform: capitalize ;
+    margin: 10px;
+}
+
+.button{
+    border:rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border-style: solid;
+    padding: 20px 50px 20px 50px;
+    border-width: 1px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    
+}
+.button:hover{
+    background: rgba(233, 232, 232,0.5); 
+}
+
+#our_work{
+    background: rgb(68, 67, 67);
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px; 
+    text-transform: capitalize;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ourwork{
+    border-left: dotted 1px white;
+    border-right: dotted 1px white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+img{
+    width: 100%;
+    justify-content: center;
+ 
+}
+
+img:hover{
+   
+   transition: 400ms ease;
+   margin-top:22.78px;
+   margin-bottom:22.78px;
+   transform:  scale(1.09); 
+}  
+
+.caption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    size: 0.7em;
+    margin: 20px;
+}
+
+.caption_head{
+    text-transform: capitalize;
+    font-weight: bolder;  
+    margin: 0px;
+}
+
+.caption_text{
+    font-size: 1.2em; 
+    margin-top: 0px; 
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#get_in_touch{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
